@@ -1,18 +1,25 @@
-## Getting Started
+# Sintaxes da Linguagem Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Assuntos:
+    * Estrutura Inicial
+    * Padrão de Nomenclatura
+    * Declarando Variáveis e Metodos
+    * Identação
+    * Organizando Arquivos
+    * Java Beans
 
-## Folder Structure
+## Para saber mais:
+    * [GIT Book DIO](https:/glysns.gitbook.io/java-basico/)
 
-The workspace contains two folders by default, where:
+## Anatomia das Classes
+### Uma Classe Bem Estruturada Não Quer Gerra Com Ninguém :)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+* A escrita de um código Java é feita através da composição de palavras pré definidas pela lnguagem pelas expressões que ultilizamos para determinar o nome do nossos arquivos, classes, atributos e métodos.
+É muito comum mesclarmos expressões em inglês com o português para facilitar a escrita de um código. Existem projetos que recomendam que toda a implementação do seu programa seja escrita na lingua inglesa.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+~~~java
+public class MinhaClasse {
+    //Seu Codigo aqui
+}
+    
