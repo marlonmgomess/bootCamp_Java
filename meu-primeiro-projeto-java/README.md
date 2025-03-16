@@ -93,3 +93,18 @@ int somar(int numeroUm, int numeroDois) {
 A identação é uma prática que permite melhorar a legibilidade do código.
 Basicamente identar é um termo ultilizado para escrever o código do programa de forma que as linhas de código sejam alinhadas, facilitando a visualização e o intendimento do programa.
 
+### ***Java Beans:***
+Java Beans é um padrão de desenvolvimento de software que visa facilitar a construção de componentes de software.
+Uma das maiores dificuldades na programação é escrever algoritimos legíveis a niveis que sejam compreendidos por todo seu time ou por você mesmo no futuro. Para isso, a linguagem Java sugere, através de uma convenção, formas de escrita universal para nossas classes, atributos, métodos e pacotes.
+#### *Variáveis* ####
+- Uma variável deve ser clara, sem abreviações ou definições sem sentido.
+- Uma variável é sempre no singular, ***Exeto quando se referir a um array ou coleções***.
+- Defina um idioma unico para suas variáveis, se for declarar variáveis em inglês, mantenha-se nesse idioma.
+#### *Métodos* ####
+Os metodos devem ser nomeados como verbos, através de uma mistura de letras minusculas e maiúsculas. Em principio, todas as letras que compõem o nome devem ser mantidas em letras minúsculas, exceto quando se tratar de uma palavra composta.
+- Exemplo:
+~~~java
+somarNumeros() {}
+abrirConexao() {}
+fecharConexao(){}
+concluirProcessamento(){}
