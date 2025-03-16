@@ -66,3 +66,30 @@ public class MinhaClasse {
 - Não pode conter espaços em branco;
 - Não podemos usar palavras reservadas;
 - Onome deve ser unico dentro de um mesmo escopo;
+### ***Declarando Variáveis e Métodos:***
+Como identificar entre declaração de variáveis e declaração de métodos em nosso programa? Existe uma estrutura comum para ambas as finalidades.
+Exemplo:
+Declarar uma variável em java, use sempre a seguinte estrutura:
+~~~java
+Tipo nomeDaVariavel = Atribuição (Opcional em alguns casos);
+||Exemplo:
+int idade = 10;
+double altura = 1.80;
+Dog spyke; \\Observe que não atribuimos valor a variável spyke
+~~~
+### ***Métodos:***
+Declaração de métodos em java, use sempre a seguinte estrutura:
+~~~java
+TipoRetorno nomeObjetivoInfinitivo Parametros
+//Exemplo:
+int somar(int numeroUm, int numeroDois) {
+    return numeroUm + numeroDois;    
+   int resultado = somar(10, 20);
+   System.out.println(resultado);
+   ***Identa
+}
+~~~
+### ***Identação:***
+A identação é uma prática que permite melhorar a legibilidade do código.
+Basicamente identar é um termo ultilizado para escrever o código do programa de forma que as linhas de código sejam alinhadas, facilitando a visualização e o intendimento do programa.
+
