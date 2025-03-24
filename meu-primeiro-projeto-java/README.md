@@ -108,3 +108,12 @@ somarNumeros() {}
 abrirConexao() {}
 fecharConexao(){}
 concluirProcessamento(){}
+~~~
+
+## ***Metodos*** ##
+***Todas as ações das aplicações são consideradas métodos.***
+- Uma classe é definida por atributos e métodos.
+- Atributos são em sua grande maioria variáveis de diferentes tipos e valores.
+- Métodos são as ações que a classe pode realizar. Correspondem a funções e sub-rotinas disponíveis na classe.
+- Se um metodo não retorna nenhum valor, ele é chamado de método void.
+- O metodo possui risco de apresentar exeções, ou seja, erros que podem ocorrer durante a execução do programa.
