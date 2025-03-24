@@ -1,6 +1,6 @@
 ## Getting Started
 
-# O que fará minha SmarttTv? #
+# O que fará minha SmartTv? #
 
 - Vamos criar um exemplo de uma clsse para onde:
 1. Ela tenha as características: ***Ligado (boolean), canal (int) e volume (int).***
