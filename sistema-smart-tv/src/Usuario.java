@@ -8,5 +8,12 @@ public class Usuario {
 
         smartTv.ligarTv();
 
+       smartTv.aumentarVolume();
+       smartTv.aumentarVolume();
+       smartTv.aumentarCanal();
+       smartTv.aumentarCanal();
+
+       smartTv.mudarCanal(12);
+
     }
 }

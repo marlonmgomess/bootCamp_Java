@@ -24,6 +24,7 @@ public class SmartTv {
         }else{
             System.out.println("A TV já está desligada");
         }
+    }
 
     //Método que aumenta o volume da TV
     public void aumentarVolume() {
@@ -31,6 +32,7 @@ public class SmartTv {
             volume++;
             System.out.println("Aumentando o volume para : " + volume);
         }
+    }
 
     //Método que diminui o volume da TV
     public void diminuirVolume() {
@@ -38,6 +40,7 @@ public class SmartTv {
             volume--;
             System.out.println("Diminuindo o volume para : " + volume);
         }
+    }
 
     //Método que aumenta o canal da TV
     public void aumentarCanal() {
@@ -45,6 +48,7 @@ public class SmartTv {
             canal++;
             System.out.println("Aumentando o canal para : " + canal);
         }
+    }
 
     //Método que diminui o canal da TV
     public void diminuirCanal() {
@@ -52,6 +56,15 @@ public class SmartTv {
             canal--;
             System.out.println("Diminuindo o canal para : " + canal);
         }
+    }
+
+    //Método que muda para um canal específico
+    public void mudarCanal(int canal) {
+        if(ligada == true){
+            this.canal = canal;
+            System.out.println("Mudando para o canal : " + canal);
+        }
+    }
 
 
 }
