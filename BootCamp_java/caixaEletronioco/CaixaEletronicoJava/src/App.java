@@ -31,8 +31,8 @@ public class App {
         
     }
     public static void menu(){
-        System.out.println("Caixa Eletronico JAVA 2022");
-        printLinhas();
+        System.out.println("Caixa Eletronico JAVA 2022\n");
+        
         System.out.println("[1] Entrar na Connta");
         printLinhas();
         System.out.println("[2] Criar Conta");
