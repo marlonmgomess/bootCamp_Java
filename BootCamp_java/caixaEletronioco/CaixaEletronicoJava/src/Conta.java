@@ -12,7 +12,7 @@ public class Conta {
         this.saldo-=valor;
     }
 
-    public detalhes(){
+    public void detalhes(){
         System.out.println("Nome: "+ getNome());
         System.out.println("CPF: "+ getCpf());
         System.out.println("Saldo: R$"+getSaldo());
